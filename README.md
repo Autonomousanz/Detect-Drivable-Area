@@ -53,7 +53,7 @@ There are 15 Layers of Neural network with input of 80 X 160 pixel image size , 
 ### Deploying CNN on test Video 
 
 
-![Result_Demonstration_AdobeExpress (1)]<img src ="https://user-images.githubusercontent.com/64002247/194719484-e89b420f-1b04-4b22-891d-5f0ece5f8b39.gif" width="80" height = "45">
+![Result_Demonstration_AdobeExpress (1)]<img src ="https://user-images.githubusercontent.com/64002247/194719484-e89b420f-1b04-4b22-891d-5f0ece5f8b39.gif" width="1600" height = "900">
 
 
 
