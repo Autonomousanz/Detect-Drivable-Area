@@ -51,22 +51,27 @@ There are 15 Layers of Neural network with input of 80 X 160 pixel image size , 
 
 
 ### Deploying CNN on test  Video 
-![video](https://github.com/Autonomousanz/DrivableArea-Detection-for-Inclement-Weather-BDD100K/blob/main/Result%20Demonstration.mp4)
+![Result_Demonstration_AdobeExpress](https://user-images.githubusercontent.com/64002247/194719232-831a2931-d6b6-4725-912c-a1337c773022.gif)
+
 
 
 ### Future Scope 
-As observed from the results of the initial model and final optimum model, the feature learning of the
+
+1. As observed from the results of the initial model and final optimum model, the feature learning of the
 images was improved. However, the improvement is not sufficient which can be observed in the video frame
 upon deploying this model for foggy weather test cases. In order to improve the feature learning additional
 convolutional layering followed by deconvolution layering can be implemented. Fine tuning of the model is
 required to reduce the disparity between predicted and ground truth.
-The model needs more tuning of hyperparameters for optimum performance, for example the model can be
+
+2. The model needs more tuning of hyperparameters for optimum performance, for example the model can be
 trained for more epochs with a dual GPU with better learning rate. Since the loss of the model reduces minutely
 throughout the 10 epochs, if the learning rate is increased while allowing more repetitions of training(epochs)
 a better model output can be achieved.
-The time taken for model training is one major bottleneck even for small image sizes, we were training the
+
+3. The time taken for model training is one major bottleneck even for small image sizes, we were training the
 model on single GPU however using dual GPU power the training time can be reduced for big data size and
 thereby using original image size of 720 x 1280 pixels can be then used as an input to the model. Thus a more
 complex model with higher dimensions of image, a better feature learning can be done.
+
 We used the network to predict lanes on a video. That way using the same network and adding a Recurrent
 Neural Network to make use of the temporal features would yield better results.
