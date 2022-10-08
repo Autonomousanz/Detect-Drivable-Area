@@ -2,8 +2,8 @@
 
 Deep Learning Project: Drivable Area Segmentation for poor weather conditions
 
-**Team :** Pranava Swaroopa, Sanskruti Jadhav , Siddharth Joshi
-{pswaroo, sanskrj, sajoshi}@clemson.edu
+**Team :**  Sanskruti Jadhav ,Pranava Swaroopa, Siddharth Joshi
+{sanskrj,pswaroo, sajoshi}@clemson.edu
 
 **Acknowledgements :** Dr. Rahul Rai and Shengli Xu 
 
@@ -52,7 +52,7 @@ There are 15 Layers of Neural network with input of 80 X 160 pixel image size , 
 
 ### Deploying CNN on test Video 
 
-![Result_Demonstration]<img src ="https://user-images.githubusercontent.com/64002247/194719232-831a2931-d6b6-4725-912c-a1337c773022.gif" width ="400" height = " 790">
+![Result_Demonstration]<img src ="https://user-images.githubusercontent.com/64002247/194719232-831a2931-d6b6-4725-912c-a1337c773022.gif" width ="790" height = "400">
 
 
 
