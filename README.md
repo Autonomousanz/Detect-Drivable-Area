@@ -59,21 +59,20 @@ There are 15 Layers of Neural network with input of 80 X 160 pixel image size , 
 
 ### Future Scope 
 
-1. As observed from the results of the initial model and final optimum model, the feature learning of the
-images was improved. However, the improvement is not sufficient which can be observed in the video frame
+1. As observed from the results of the initial model and final optimum model, there is an improvement in feature learning of the
+images. However, this was not sufficient which can be observed in the video frame
 upon deploying this model for foggy weather test cases. In order to improve the feature learning additional
 convolutional layering followed by deconvolution layering can be implemented. Fine tuning of the model is
 required to reduce the disparity between predicted and ground truth.
 
 2. The model needs more tuning of hyperparameters for optimum performance, for example the model can be
-trained for more epochs with a dual GPU with better learning rate. Since the loss of the model reduces minutely
+trained for more epoch with better learning rate. Since the loss of the model reduces minutely
 throughout the 10 epochs, if the learning rate is increased while allowing more repetitions of training(epochs)
 a better model output can be achieved.
 
-3. The time taken for model training is one major bottleneck even for small image sizes, we were training the
-model on single GPU however using dual GPU power the training time can be reduced for big data size and
-thereby using original image size of 720 x 1280 pixels can be then used as an input to the model. Thus a more
-complex model with higher dimensions of image, a better feature learning can be done.
+3. The time taken for model training is one major bottleneck even for small image sizes,training the
+model on single GPU however using dual GPU power, the training time can be reduced. 
 
-We used the network to predict lanes on a video. That way using the same network and adding a Recurrent
-Neural Network to make use of the temporal features would yield better results.
+Using original image size of 720 x 1280 pixels can be then used as an input to the model to improve feature learning.
+Thus a more complex model with higher dimensions of image can be designed.
+Adding a Recurrent Neural Network to make use of the temporal features may also yield better results.
