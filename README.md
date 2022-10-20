@@ -59,8 +59,7 @@ There are 15 Layers of Neural network with input of 80 X 160 pixel image size , 
 
 ### Future Scope 
 
-1. As observed from the results of the initial model and final optimum model, there is an improvement in feature learning of the
-images. However, this was not sufficient which can be observed in the video frame
+1. As observed from the results of the initial model and final optimum model, features learned are not sufficient which can be observed in the video frame
 upon deploying this model for foggy weather test cases. In order to improve the feature learning additional
 convolutional layering followed by deconvolution layering can be implemented. Fine tuning of the model is
 required to reduce the disparity between predicted and ground truth.
